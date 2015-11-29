@@ -33,9 +33,9 @@ instance Options MainOptions where
         	 , optionDefault = Euclid 
         	})
         <*> simpleOption "isRandCenters" False
-            "isRandCenters"
+            "Method of initialize: false==RandomMatrix or true==RandomCenters"
         <*> simpleOption "separator"  ","
-            "column separator"
+            "column separator(will select the first character of the string)"
         <*> simpleOption "isIgnoreHeader" False
             "Ignore header row"
 
