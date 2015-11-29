@@ -1,8 +1,8 @@
-<b>ФП, лаб 1</b>
+<b>Fp, lab 1</b>
 	
-	Выполнил Сергей Федюкович (151004)
+	Sergei Fediukovich (151004)
 	
-	<b>Применение:</b>
+	<b>Usage:</b>
 	```
 	Available options:  Help Options:
 						-h, --help	Show option summary.
@@ -21,7 +21,7 @@
 						--isIgnoreLast :: bool  -> Ignore last column  -> default: false
 	  ```
 	  
-	  # Запуск с помощью sandbox
+	  # Launch with sandbox
 	```bash
 	git clone https://github.com/Ga2nibal/fp-lab1.git
 	cd fp-lab1
